@@ -1,0 +1,29 @@
+/* Style for the table */
+table {
+    width: 50%; /* Set the table width as needed */
+    border-collapse: collapse; /* Remove spacing between table cells */
+    margin: 20px auto; /* Center the table horizontally */
+}
+
+/* Style for the table header (green) */
+th {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+/* Style for the table rows with alternating colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Grey background for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: white; /* White background for odd rows */
+}
+
+/* Style for the table cells */
+td {
+    border: 1px solid #ccc; /* Add a border to the cells */
+    padding: 10px;
+    text-align: center;
+}
