@@ -1,0 +1,13 @@
+p{
+    cursor: pointer;
+    color: blue;
+}
+.text-container {
+    display: flex;
+    align-items: center;
+}
+
+.separator {
+    margin: 0 10px; /* Adjust the margin as needed to control the spacing between the text and the separator. */
+    color: #333; /* Optional: Change the color of the separator. */
+}
